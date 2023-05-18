@@ -8,4 +8,5 @@ if __name__ == '__main__':
     e = a * b
     print(c,d,e,sep = "\n")
 
-    print(f"{a // b}\n{a / b}")
+    for i in range(0,5):
+        print(f"{a // b}\n{a / b}")
